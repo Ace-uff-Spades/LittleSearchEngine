@@ -7,4 +7,13 @@ The little search engine could complete two tasks:
   2. Search for user-input keywords against the index and return a list of matching documents in which thes keywords occur.
   
   
-The following API was implemented:
+The following API was implemented
+
+
+     public void getKeyword(String word): Given a list of keywords, checks if this word is a keyword. The word must only contain alphabetic characters with no leading or trailing punction (String processing required)
+     public void mergeKeywords(): Load keywords from a specific document to the master Hashtable that contains all keywords from all documents
+     public ArrayList<Integer> insertLastOccurrence(): 
+     public ArrayList<String> top5search(): Returns a list of documents in which 2 keywords appear most frequenly, arranged in descending order of frequencies.
+
+
+This project was completed on April 13, 2015
