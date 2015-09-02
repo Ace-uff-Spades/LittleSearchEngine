@@ -11,13 +11,13 @@ The following API was implemented
 
 
      public class LittleSearchEngine {
-     public LittleSearchEngine           //Creates new Hashmaps of keywords and noise words
-     public void makeIndex(String docsFile, String noiseFile) //indexes all keywords found in all documents
-     public HashMap loadKeyWords(String docFile) //Loads all keywords from into hashmap
-     public void mergeKeyWords(Hashmap kws)   //Merges keywords from single document into master keywordsIndex
-     public void getKeyword(String word)        //Returns the keyword (without punctuation) if it passes the keyword test
-     public ArrayList insertLastOccurrence(ArrayList occs)  //Insert word and occurence into correct location in list using binary search
-     public ArrayList top5search(Strign kw1, String kw2)    //Returns top 5 documents containing either kw1 or kw2 in order
+     public LittleSearchEngine                                 //Creates new Hashmaps of keywords and noise words
+     public void makeIndex(String docsFile, String noiseFile)  //indexes all keywords found in all documents
+     public HashMap loadKeyWords(String docFile)               //Loads all keywords from into hashmap
+     public void mergeKeyWords(Hashmap kws)                    //Merges keywords from single document into master keywordsIndex
+     public void getKeyword(String word)                       //Returns the keyword (without punctuation) if it passes the keyword test
+     public ArrayList insertLastOccurrence(ArrayList occs)     //Insert word and occurence into correct location in list using binary search
+     public ArrayList top5search(Strign kw1, String kw2)       //Returns top 5 documents containing either kw1 or kw2 in order
      
 
 Please check the assignment specification for full details.
